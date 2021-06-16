@@ -1,0 +1,43 @@
+.formStyleEmployers {
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+  padding-top: 35px;
+  color: white;
+
+  display: flex;
+  color: green;
+  align-items: center;
+  justify-content: space-between;
+
+  flex-direction: column;
+  gap: 2rem;
+  font: 1.2em sans-serif;
+}
+
+.formStyleEmployers {
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+}
+
+.formStyleEmployers label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.formStyleEmployers input {
+  font: inherit;
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 0.15px;
+  margin-bottom: 0.5px;
+}
+
+.formStyleEmployers input:focus {
+  outline: none;
+  border-color: #4f005f;
+}

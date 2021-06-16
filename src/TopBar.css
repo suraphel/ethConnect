@@ -1,0 +1,39 @@
+.toolbar{
+    Top: 0;
+    width: 100%; 
+    position: fixed; 
+    background-color:rgb(225, 230, 228);
+}
+
+.navigation_toolbar  {
+    display: flex; 
+    align-items: center;
+    height: 100%;
+    padding: 0 1rem; 
+}
+
+.toolbar_logo  a{
+    color: rgb(66, 4, 4); 
+    font-size: 1.5rem ;    
+    text-decoration: none;   
+}
+
+.spacer{
+    flex: 1;
+}
+
+.toolbar_navItems ul{
+    list-style: none;
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+}
+.toolbar_navItems li{   
+    padding: 0 1.5rem;    
+}
+   
+   .toolbar_navItems a{
+       color: rgb(5, 1, 15); 
+       text-decoration: none;
+   }
+
